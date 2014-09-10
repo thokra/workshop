@@ -13,6 +13,19 @@ vanskelig og treigt å utvikle/compile.
 
 Det var lenge siden det ble lansert ett nytt, moderne systemprogrammeringsspråk.
 
+# Hva er Go?
+Go er en spesifikasjon på ca 45 A4 sider.
+- Java: 644 (670)
+- C#:
+- Python: ~120
+Verktøypakke:
+- Formatering
+- Linting
+- Bygging
+- Debugging
+Nøkkelord:
+- Kommer tilbake til
+
 # Hello World
 
 # Syntax
