@@ -1,0 +1,55 @@
+Go workshop
+En introduksjon
+11 Sep 2014
+
+Thomas Siegfried Krampl
+@thokra
+
+* Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+* Historietime
+- Startet sent 2007
+- Prototype i 2008
+- Lansert OS i 2009
+- Go 1.0 lansert 28. mars 2012
+
+.image assets/logo.png
+
+* Hvorfor ett nytt språk?
+- Stor frustrasjon med gjeldende miljøer
+- Kompilering var treigt
+- 10+ år siden siste systemspråk
+- Multicore/system fokus
+
+* Hva er Go?
+- En spesifikasjon
+- Verktøypakke
+- Ett nøkkelord
+
+* Hello World
+.play code/hello_world.go
+
+* Syntax
+*Package*
+Alle Go filer må starte med `package name`.
+
+*Variabler*
+
+.play -edit code/vars.go /START OMIT/,/END OMIT/
+De tre siste gjør det samme, men den siste kan kun brukes inne i funksjoner.
+
+* Syntax
+*Funksjoner*
+
+.play -edit code/funcs.go /START OMIT/,/END OMIT/
+Starter alltid med `func` og kan returnere flere variabler.
+
+* Syntax
+*Slice/arrays*
+
+.play -edit code/loops.go /START SLICE OMIT/,/END SLICE OMIT/
+
+* Syntax
+*Løkker*
+
+.play -edit code/loops.go /START OMIT/,/END OMIT/
