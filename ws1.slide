@@ -31,7 +31,7 @@ Thomas Siegfried Krampl
 
 * Syntax
 *Package*
-Alle Go filer må starte med `package name`.
+Alle Go filer må starte med package name.
 
 *Variabler*
 
@@ -42,7 +42,7 @@ De tre siste gjør det samme, men den siste kan kun brukes inne i funksjoner.
 *Funksjoner*
 
 .play -edit code/funcs.go /START OMIT/,/END OMIT/
-Starter alltid med `func` og kan returnere flere variabler.
+Starter alltid med func og kan returnere flere variabler.
 
 * Syntax
 *Slice/arrays*
@@ -53,3 +53,51 @@ Starter alltid med `func` og kan returnere flere variabler.
 *Løkker*
 
 .play -edit code/loops.go /START OMIT/,/END OMIT/
+
+* Hello World 2
+
+.play code/hello_server.go
+
+* Structs
+
+.play code/struct.go /START OMIT/,/END OMIT/
+
+* Structs
+
+.play code/struct.go /START FUNC OMIT/,/END FUNC OMIT/
+
+* Interfaces
+
+  type Stringer interface {
+      String() string
+  }
+
+Go benytter interface. Alle typer som implementerer String() string støtter dette interfaces, det trengs ikke implementeres.
+
+* Concurrency
+
+.play code/concurrency.go /START OMIT/,/END OMIT/
+
+Nøkkelordet go kjører funksjonen i egen goroutine.
+En goroutine er en lett tråd.
+
+* Verktøy
+
+- go fmt - Formattering av Go kode. Det er EN måte å skrive Go på!
+- go vet - finn problemer med koden
+- golint - Lint koden, finn deler av koden du kan forbedre.
+- godoc  - Les dokumentasjonen til alle pakker du har i GOPATH
+  godoc -http=:6060
+
+Felles for de fleste Go kommandoer er: output kun ved feil
+
+* Miljø
+Mitt favorittmiljø: Sublime Text 3 med GoSublime. Bruker [[https://github.com/bradfitz/goimports][goimports]] istedetfor go fmt
+
+Vim med [[https://github.com/fatih/vim-go][vim-go]]
+
+[[https://github.com/visualfc/liteide][CodeLite]] IDE laget for Go
+
+* Gopher
+.image assets/gopher.png
+.caption _Gopher_ by [[http://www.reneefrench.com][Renée French]]

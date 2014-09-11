@@ -10,5 +10,6 @@ func main() {
 	var surname = "Krampl"
 	occupation := "Developer" // HL
 	// END OMIT
+	_ = address
 	fmt.Println(name, surname, occupation)
 }
