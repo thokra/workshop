@@ -9,6 +9,8 @@ Open Source fra 10. november 2009
 
 Versjon 1 lansert 28. mars 2012
 
+Versjon 1.5 lansert 19. august 2015. Uten C, litt lengre byggetid, men bedre kjøretid.
+
 # Hvorfor ett nytt språk?
 Utviklet pga frustrasjon med eksisterende miljøer for systemprogrammering. Det hadde blitt
 vanskelig og treigt å utvikle/compile.
@@ -20,6 +22,12 @@ Go er en spesifikasjon på ca 45 A4 sider.
 - Java: 644 (670)
 - C#: ~500
 - Python: ~120
+
+VS PHP:
+Nøkkelord:
+- PHP: 70+
+- Go: 25
+
 Verktøypakke:
 - Formatering
 - Linting

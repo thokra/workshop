@@ -1,6 +1,6 @@
 Go workshop
 En introduksjon
-11 Sep 2014
+28 Aug 2015
 
 Thomas Siegfried Krampl
 @thokra
@@ -12,6 +12,7 @@ Thomas Siegfried Krampl
 - Prototype i 2008
 - Lansert OS i 2009
 - Go 1.0 lansert 28. mars 2012
+- Go 1.5 lansert 19. august 2015 (No more C)
 
 .image assets/logo.png
 
@@ -50,6 +51,11 @@ Starter alltid med func og kan returnere flere variabler.
 .play -edit code/loops.go /START SLICE OMIT/,/END SLICE OMIT/
 
 * Syntax
+*Maps*
+
+.play -edit code/maps.go
+
+* Syntax
 *Løkker*
 
 .play -edit code/loops.go /START OMIT/,/END OMIT/
@@ -57,6 +63,8 @@ Starter alltid med func og kan returnere flere variabler.
 * Hello World 2
 
 .play code/hello_server.go
+
+[[http://localhost:3030][Open]]
 
 * Structs
 
@@ -72,13 +80,13 @@ Starter alltid med func og kan returnere flere variabler.
       String() string
   }
 
-Go benytter interface. Alle typer som implementerer String() string støtter dette interfaces, det trengs ikke implementeres.
+Go benytter interfaces. _Alle_ typer som implementerer *String()* *string* støtter implisitt *Stringer* interfacet.
 
 * Concurrency
 
 .play code/concurrency.go /START OMIT/,/END OMIT/
 
-Nøkkelordet go kjører funksjonen i egen goroutine.
+Nøkkelordet *go* kjører funksjonen i egen goroutine.
 En goroutine er en lett tråd.
 
 * Verktøy
@@ -92,7 +100,9 @@ En goroutine er en lett tråd.
 Felles for de fleste Go kommandoer er: output kun ved feil
 
 * Miljø
-Mitt favorittmiljø: Sublime Text 3 med GoSublime. Bruker [[https://github.com/bradfitz/goimports][goimports]] istedetfor go fmt
+Mitt favorittmiljø: Sublime Text 3 med [[https://github.com/DisposaBoy/GoSublime][GoSublime]]. Bruker [[https://github.com/bradfitz/goimports][goimports]] istedetfor go fmt
+
+Atom med [[https://github.com/joefitzgerald/go-plus][go-plus]]
 
 Vim med [[https://github.com/fatih/vim-go][vim-go]]
 
@@ -101,3 +111,11 @@ Vim med [[https://github.com/fatih/vim-go][vim-go]]
 * Gopher
 .image assets/gopher.png
 .caption _Gopher_ by [[http://www.reneefrench.com][Renée French]]
+
+* Get ready, set, Go!
+La oss skrive Go
+
+Forslag:
+
+- JSON API server
+- Web Crawler
