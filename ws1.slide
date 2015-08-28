@@ -51,14 +51,14 @@ Starter alltid med func og kan returnere flere variabler.
 .play -edit code/loops.go /START SLICE OMIT/,/END SLICE OMIT/
 
 * Syntax
-*Maps*
-
-.play -edit code/maps.go
-
-* Syntax
 *Løkker*
 
 .play -edit code/loops.go /START OMIT/,/END OMIT/
+
+* Syntax
+*Maps*
+
+.play -edit code/maps.go
 
 * Hello World 2
 

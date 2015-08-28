@@ -12,7 +12,7 @@ func bye(names ...string) {
 }
 
 func main() {
-	s, _ := hello("Ola", "Norman")
+	s, _ := hello("Ola", "Nordmann")
 	fmt.Println(s)
 }
 
